@@ -424,6 +424,12 @@ footer{
   }
 }
 
+.agenda .button{
+  border-color: white;
+  color: white; 
+}
+
+
 /*Responsive Full-Width Grid*/
 
 .full-width-container{
