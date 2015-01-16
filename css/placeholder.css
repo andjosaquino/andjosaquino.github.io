@@ -1,0 +1,11 @@
+  .about h4 {
+    font-family: "Roboto";
+    font-size: 1.4em;
+    margin-bottom: .5em;
+    letter-spacing: .05em;
+  }
+  .about h3,
+  .about h4 {
+    text-align: left;
+    margin: 0 auto 0 auto;
+  }
