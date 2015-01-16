@@ -12,7 +12,7 @@ body{
   background-color: #eeedea;
 }
 .bg{
-  background: url('/images/header.png') no-repeat;
+  background-image: url(/images/header.png);
   background-size: 1600px auto;
   background-position: 0 -50%;
   position: fixed;
@@ -232,7 +232,8 @@ footer{
   .small-container{
     width: 40px;
     height: 40px;
-    padding-right: 1em;
+    padding-rig
+    ht: 1em;
     margin-bottom: 4em;
     padding-right: 2em;
     float:left;
