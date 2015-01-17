@@ -180,7 +180,7 @@ h3{
 }
 .social{
   padding: 3em 0 1em 0;
-  background-color: #f27a5e;
+  background-color: #2a2c2b;
   color: white;
 }
 .user{
@@ -232,8 +232,30 @@ footer p{
   font-weight: 400;
 }
 
+.portfolio-title{
+  margin: 0;
+  padding: 2em 0em;
+}
+
+.portfolio-title h4,
+.portfolio-title h3{
+  font-size: .6em;
+  text-align: center;
+  line-height: 1em;
+  margin: .6em 0em;
+}
+
+.portfolio-title h4{
+  font-size: .8em;
+}
+
+.portfolio-title h3{
+  font-size: .8em;
+}
+
 @media (min-width: 100px) and (max-width: 399px){
   /*About Circle*/
+  
   .circle-container{
     width: 80px;
     height: 80px;
@@ -259,6 +281,10 @@ footer p{
     border-right: 0 solid #c0c0c0;
     border-bottom: 1px solid #c0c0c0;
   }
+  .skills{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
   .module{
     height: 110px !important;
     padding-top: 2em;
@@ -283,27 +309,11 @@ footer p{
   .focus-sub{
 
   }
-}
-
-.portfolio-title{
-  margin: 0;
-  padding: 2em 0em;
-}
-
-.portfolio-title h4,
-.portfolio-title h3{
-  font-size: .6em;
-  text-align: center;
-  line-height: 1em;
-  margin: .6em 0em;
-}
-
-.portfolio-title h4{
-  font-size: .8em;
-}
-
-.portfolio-title h3{
-  font-size: .8em;
+    .side-contact{
+    border-bottom: 2px solid #232524;
+    padding-bottom: 1em;
+    margin-bottom: 4em;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 549px) {
@@ -346,7 +356,10 @@ footer p{
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  
+  .skills{
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
   .module p{
     font-size: 1em;
   }
@@ -387,10 +400,14 @@ footer p{
   .two-row-edge{
     margin-left: 0% !important;
   }
+  .skills{
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
   .module{
     padding-left: 1em;
     padding-right: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
   }
   .title{
     width: 100%;
