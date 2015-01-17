@@ -132,9 +132,11 @@ h3{
   width: 100%;
 }
 .full-line{
-  width: 100%;
+  width: 44%;
   padding-bottom: 3em;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px dotted #c0c0c0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 4em;
 }
 .transition-container{
@@ -276,6 +278,7 @@ footer{
 }
 
 .portfolio-title{
+  margin: 0;
   padding: 2em 0em;
 }
 
@@ -288,7 +291,7 @@ footer{
 }
 
 .portfolio-title h4{
-  font-size: 1em;
+  font-size: .8em;
 }
 
 .portfolio-title h3{
@@ -431,6 +434,10 @@ footer{
 
 
 /*Responsive Full-Width Grid*/
+.gallery h4{
+   margin: 0; 
+}
+
 
 .full-width-container{
   max-width: 100%;
@@ -452,7 +459,7 @@ footer{
   float: left;
   overflow: hidden;
   margin: 0;
-  width: 16.6666667%; /* Fallback */
+  width: 25%; /* Fallback */
   width: -webkit-calc(100% / 4);
   width: calc(100% / 4);
 }
@@ -473,37 +480,37 @@ footer{
 }
 @media screen and (min-width: 400px) {
   .full-width-grid li {
-    width: 50%; /* Fallback */
+    width: 100%; /* Fallback */
     width: -webkit-calc(100% / 1);
     width: calc(100% / 1);
   }
 }
 @media screen and (min-width: 550px) {
   .full-width-grid li {
-    width: 33.3333333%; /* Fallback */
+    width: 50%; /* Fallback */
     width: -webkit-calc(100% / 2);
     width: calc(100% / 2);
   }
 }
 @media screen and (min-width: 750px) {
   .full-width-grid li {
-    width: 33.3333333%; /* Fallback */
+    width: 50%; /* Fallback */
     width: -webkit-calc(100% / 2);
     width: calc(100% / 2);
   }
 }
 @media screen and (min-width: 1000px) {
   .full-width-grid li {
-    width: 25%; /* Fallback */
-    width: -webkit-calc(100% / 3);
-    width: calc(100% / 3);
+    width: 33%; /* Fallback */
+    width: -webkit-calc((100% / 3));
+    width: calc((100% / 3));
   }
 }
 @media screen and (min-width: 1200px) {
   .full-width-grid li {
-    width: 20%; /* Fallback */
-    width: -webkit-calc(100% / 4);
-    width: calc(100% / 4);
+    width: 33%; /* Fallback */
+    width: -webkit-calc(100% / 3);
+    width: calc(100% / 3);
   }
 }
 /*End Responsive Full-Width Grid*/
