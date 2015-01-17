@@ -115,7 +115,7 @@ h3{
 .focus-sub{
 }
 .footer-text{
-  color: #374140;
+  color: #aaaaaa;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.3em;
@@ -218,7 +218,7 @@ h3{
     
 }
 footer{
-  padding: 4em 0em 2em;
+  padding: 7em 0em 5em;
   background-color: #1e1e20;
   min-height: 0px;
 }
