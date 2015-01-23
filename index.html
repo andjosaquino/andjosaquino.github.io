@@ -25,10 +25,11 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- CSS
+  <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/js/parallax.js"></script>
+  <script src="/js/animation.js"></script>
   
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,26 +41,29 @@
   <div class="main">
   
   <div class="bg"></div>
-  <header class="section">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <p>AAQUINO.ME</p>
+  <section id="header">
+    <header class="section">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <p>AAQUINO.ME</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns landing">
-            <h1><strong>ANDREW AQUINO</strong></h1>
-            <p>Website Still Under Construction</p>
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns landing">
+              <h1><strong>ANDREW AQUINO</strong></h1>
+              <p>Website Still Under Construction</p>
+            </div>
           </div>
         </div>
-      </div>
-  </header>
+    </header>
+  </section>
   <!-- End {Header / Landing} -->    
   
   <!-- About Section -->
+  <section id="about_me">
   <div class="section intro">
     <div class="container">
       <div class="row">
@@ -104,9 +108,11 @@
       </div>
     </div>
   </div>
+  </section>
   <!-- End {About Section} -->
 
   <!-- Skills -->
+  <section id="skillset">
   <div class = "section skills">
     <div class="container">
       <div class="row two-row-std">
@@ -136,9 +142,11 @@
       </div>
     </div>
   </div>
+  </section>
   <!-- End {Skills Section} -->
  
   <!-- Contact Header -->
+  <section id="current_agenda">
   <div class="section agenda">
     <div class="container">
       <div class="row">
@@ -175,9 +183,11 @@
       </div>
     </div>
   </div>
+  </section>
   <!-- End {Contact Header} -->
 
   <!-- Portfolio -->
+  <section id="work_portfolio">
   <div class="section portfolio">
     <div class="container">
       <div class="row">
@@ -249,8 +259,8 @@
           </li>
         </ul>
       </div>
-        </div>
-   
+      </div>
+   </section>
   <!-- End {Portfolio Header} -->
   
   <div class="section skills">
@@ -284,6 +294,7 @@
       </div>
   </div>
  -->
+   <section id="contact_me">
     <div class="section contact">
     <div class="container">
       <div class="row">
@@ -307,7 +318,7 @@
     </div>
   </div>
   <!-- End {Contact Form} -->
- 
+ </section>
   
     <!-- Contact Header -->
  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB22OzX8wLFTwdD9qpzT8KumiyRSjSZZTA&sensor=false&extension=.js'></script> 
@@ -378,13 +389,13 @@
   <div class="container">
       <div class="row">
         <div class="three columns">
-          <p>About Me</p>
-          <p>Skills</p>
-          <p>Agenda</p>
+          <a class="scroll" href="#about_me"><p>About Me</p></a>
+          <a class="scroll" href="#skillset"><p>Skills</p></a>
+          <a class="scroll" href="#current_agenda"><p>Agenda</p></a>
         </div>
         <div class="three columns">
-          <p>Portfolio</p>
-          <p>Contact</p>
+          <a class="scroll" href="#work_portfolio"><p>Portfolio</p></a>
+          <a class="scroll" href="#contact_me"><p>Contact</p></a>
         </div>
       </div>
   </div>

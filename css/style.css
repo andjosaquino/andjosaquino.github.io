@@ -632,3 +632,6 @@ left-align{
   color: #f0542f;
 }
 /* End Forms */
+a {
+    text-decoration: none; 
+}
