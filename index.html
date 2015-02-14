@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,800" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600,800" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Merriweather:300italic,300,700,700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto:500,900,700' rel='stylesheet' type='text/css'>
 
@@ -28,8 +28,8 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/js/parallax.js"></script>
-  <script src="/js/animation.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/animation.js"></script>
   
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -62,6 +62,48 @@
   </section>
   <!-- End {Header / Landing} -->    
   
+  <!-- Menu Bar -->
+  <div class = "section menu">
+    <div class="container">
+      <div class="row">
+        <div class="two columns first">
+          <h6>LOGO</h6>
+          <div class="header-line"></div>
+        </div>
+        <a class="scroll" href="#about_me">
+          <div class="two columns">
+            <h6>About</h6>
+            <div class="header-line"></div>
+          </div>
+        </a>
+        <a class="scroll" href="#skillset">
+          <div class="two columns">
+            <h6>Skills</h6>
+            <div class="header-line"></div>
+          </div>
+        </a>
+        <a class="scroll" href="#current_agenda">
+          <div class="two columns">
+            <h6>Agenda</h6>
+            <div class="header-line"></div>
+          </div>
+        </a>
+        <a class="scroll" href="#work_portfolio">
+          <div class="two columns">
+            <h6>Portfolio</h6>
+            <div class="header-line"></div>
+          </div>
+        </a>
+        <a class="scroll" href="#contact_me">
+          <div class="two columns">
+            <h6>Contact</h6>
+            <div class="header-line"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Menu End -->
   <!-- About Section -->
   <section id="about_me">
   <div class="section intro">
@@ -82,18 +124,21 @@
           <p>Over the years, my future prospects changed like clockwork. 
           Never have I ever committed to what type of person I would become in twenty years.
           To this day it still remains a mystery.
-          </p><p>
+          </p>
+          <p>
           Unlike my inconsistent aspirations, my fascination towards the digital medium
           never changed. Technology substantially eased even the smallest struggles; I wanted to create
           this same effect for other people. Therefore,
           with interests business, psychology, and design, I decided to pursue
           computer science to secure skills within all of the key stages of app development.
-          </p><p>
+          </p>
+          <p>
           Currently, I endure the harsh winters of Cornell University, drudging
           through the even harsher engineering curriculum. Despite my stark       
           indifference towards the physical sciences like god-foresaken chemistry, 
           engineering instilled a mentality and a work ethic to achieve my dreams even furthur.
-          </p><p>
+          </p>
+          <p>
           Outside of academics, I operated as a freelance graphic designer since early highschool 
           and currently serve as an art director for several school organizations; in 
           addition, I recently completed a six month contract as a UI/UX Dev for a promising 
@@ -195,6 +240,10 @@
           <h4 style="text-align: center"><strong>PORTFOLIO</strong></h4>
           <div class="header-line"></div>
           <h3 style="text-align: center">Art Direction | Dev Projects | Marketing</h3>
+          <div class="center">
+          <br>
+          <a class="button" href="https://www.dropbox.com/sh/hkhqojtg47pi42a/AABZGE3YHEfd3oN7AVOKYs1ga?dl=0">Extended Portfolio</a>
+          </div>
         </div>
       </div>
     </div>
@@ -258,6 +307,7 @@
             </div>
           </li>
         </ul>
+
       </div>
       </div>
    </section>
@@ -307,10 +357,10 @@
         </div>
         <div class="seven offset-by-one columns">
           <form action="http://formspree.io/aja255@cornell.edu" method="POST">          <!--Contact // Email Form-->
-          <input class="u-full-width" type="text" placeholder="NAME" id="exampleEmailInput"><br>
+          <input class="u-full-width" type="text" placeholder="NAME" id="exampleEmailInput" name="name"><br>
           <input class="u-full-width" type="email" placeholder="EMAIL" name="_replyto" id="exampleEmailInput"><br><br>
           <!--Contact // Submit Button-->
-          <textarea class="u-full-width" placeholder="MESSAGE" id="exampleMessage"></textarea><br>
+          <textarea class="u-full-width" placeholder="MESSAGE" id="exampleMessage" name="body"></textarea><br>
           <input class="button-primary u-full-width" type="submit" value="SUBMIT">
           </form>
         </div>

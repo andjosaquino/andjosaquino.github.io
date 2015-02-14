@@ -14,7 +14,7 @@ body{
   background-color: #eeedea;
 }
 .bg{
-  background-image: url(/images/header.png);
+  background-image: url(../images/header.png);
   background-size: 1600px auto;
   background-position: 0 -50%;
   position: fixed;
@@ -186,18 +186,18 @@ h3{
   color: white;
 }
 .user{
-  background-image:url(/images/user.png);
+  background-image:url("../images/user.png");
   background-size: 110%;
   background-position: 3px -10px;
 }
 .weather{
-  background-image:url("/images/weather-app.png");
+  background-image:url("../images/weather-app.png");
   background-size: 1600px auto;
   background-position: 40% 55%;
   overflow: hidden;
 }
 .mackenzie{
-  background-image:url("/images/mackenzie.png");
+  background-image:url("../images/mackenzie.png");
   background-size: 1600px auto;
   background-position: 32% 33%;
   overflow: hidden;
@@ -254,6 +254,53 @@ footer p{
 .portfolio-title h3{
   font-size: .8em;
 }
+
+.portfolio .button{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Menu module*/
+.menu {
+  background-color: #eeedea;
+  padding: 0em 0 0em 0;
+}
+.menu h6{
+  text-align: center;
+  font-weight: 600;
+  font-size: .6em;
+  letter-spacing: .3em;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased !important;
+
+}
+.menu .two {
+  width: 16%; /* Fallback */
+  width: -webkit-calc(100% / 6);
+  width: calc(100% / 6);
+}
+.menu .columns{
+  padding: 2em 0em 1em;
+  margin: 0;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, .2);
+}
+.menu .first{
+  border-left: 1px solid rgba(0, 0, 0, .2); 
+}
+.menu .header-line{
+  width: 0%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: -10px;
+}
+.menu .columns:hover .header-line{
+  transition-property: width;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  width: 10%;
+} 
+
 
 @media (min-width: 100px) and (max-width: 399px){
   /*About Circle*/
@@ -317,6 +364,7 @@ footer p{
     margin-bottom: 4em;
   }
 }
+
 
 @media (min-width: 400px) and (max-width: 549px) {
   .side-contact{
