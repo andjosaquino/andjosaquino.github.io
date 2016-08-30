@@ -1,3 +1,8 @@
+*{
+    -webkit-transition: all .35s ease-in-out; /* Safari 3.1 to 6.0 */
+    transition: all .35s ease-in-out;
+}
+
 /** Thin */
 @font-face {
   font-family: "San Francisco";
@@ -30,7 +35,12 @@ h1, h2, h3, h4, h5, h6, p, body, li{
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: #576A74;
+}
+
+a:hover{
+  color:#1B2023;
 }
 
 h1, .text-1 {
@@ -65,6 +75,10 @@ p, .text-3{
     color: #E05B5B;
 }
 
+.u-accentColor:hover{
+    color: #A7524F;
+}
+
 .u-secondaryColor{
     color: #8DA0A2;
 }
@@ -72,6 +86,15 @@ p, .text-3{
 .u-bold{
     font-weight: 600;
 }
+
+#work a{
+  color: #E05B5B;
+}
+
+#work a:hover{
+  color: #A7524F;
+}
+
 
 /*Components*/
 .container--header{
