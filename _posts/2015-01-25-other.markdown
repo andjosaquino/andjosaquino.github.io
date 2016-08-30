@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Aphelion"
+company: "Other Work"
+role: "Designer, Artist, Marketeer"
+period: ""
+date:   2016-08-19 15:03:25 -0400
+description: "For other and very old work, visit my <a href='https://www.behance.net/AndrewAquino'>behance</a>."
+categpry: job
+categories: jekyll update
+---
+
