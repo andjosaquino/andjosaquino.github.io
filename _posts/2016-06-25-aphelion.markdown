@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Aphelion"
+company: "Several Game Design Projects"
+role: "Design Lead"
+period: "September 2014 to December 2014, September 2015 to December 2015, Janurary 2016 to May 2016"
+date:   2016-08-19 15:03:25 -0400
+description: "For an intro game design class, me with a team of 5 created a desktop game called Dispossessed. I served as a product manager and a designer. As one of my first design / product experiences, I learned about feature prioritzation and team management. <a href='https://www.behance.net/gallery/24703375/Dispossessed-Concept-Art'>View concept art</a><br><br>
+For an analytics-driven game design class, me and a team of 5 designed a simple flash game, on which I served as a design lead. I learned how to make simple interactions compelling and about the importance of onboarding and user education. I used d3.js to generate learnings that drove future iterations.<a href='http://www.kongregate.com/games/teresali/gravity'> Play the game </a>.<a href='https://docs.google.com/presentation/d/1vKGzvYHOaPtQTF2l4doj-67mjbo0Bin9iIDRiYNC7hw/edit?usp=sharing'> Read the data analysis</a>.
+<br><br>
+For an advanced game design class, me along with a team of 5 created an mobile game. We wanted to create a simple yet intelectually stimulating experience that can be played on the go. I served as an art director and design lead. <a href='https://www.youtube.com/watch?v=KIrzsiO26p0'>Watch the trailer</a>"
+categpry: job
+categories: jekyll update
+---
+

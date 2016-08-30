@@ -167,7 +167,7 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
-input[type="subamit"],
+input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
@@ -202,7 +202,7 @@ input[type="button"]:focus {
   outline: 0; }
 .button.button-primary,
 button.button-primary,
-input[type="subamit"].button-primary,
+input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
@@ -210,17 +210,17 @@ input[type="button"].button-primary {
   border-color: #33C3F0; }
 .button.button-primary:hover,
 button.button-primary:hover,
-input[type="subamit"].button-primary:hover,
+input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus,
-input[type="subamit"].button-primary:focus,
+input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
-  border-color: #1EAEDB;}
+  border-color: #1EAEDB; }
 
 
 /* Forms
@@ -237,7 +237,7 @@ select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 0px solid #D1D1D1;
+  border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
@@ -265,9 +265,9 @@ input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
-select:focus {/*
+select:focus {
   border: 1px solid #33C3F0;
-  outline: 0; */}
+  outline: 0; }
 label,
 legend {
   display: block;
@@ -403,16 +403,16 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 410px) {}
+@media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 560px) {}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 760px) {}
+@media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1010px) {}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1210px) {}
+@media (min-width: 1200px) {}
